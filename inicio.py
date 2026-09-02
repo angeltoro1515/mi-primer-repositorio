@@ -50,6 +50,29 @@ else:
    print("el numero es impar") 
 
 
+n1 = float(input("ingresa el primer numero para comparar"))
+n2 = float(input(" ingresa el segundo numero para comparar"))
+
+if n1 > n2:
+  print("el primer numero es mayor:",n1)
+
+elif n2 > n1:
+   print("el segundo numero es mayor:",n2)
+
+else:
+   print("ambos numeros son iguales")
+
+
+
+anio = int(input("ingresa un año"))
+if anio % 4 == 0:
+   print("un año es bisiesto")
+
+else:
+   print(" un año es es bisiesto")
+
+ 
+
 
 
 
