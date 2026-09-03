@@ -100,7 +100,20 @@ print("el equivalente en dolares es:$", dolares)
 
 
 
+edad= float(input("ingresa tu edad"))
 
+if edad < 12:
+  print("eres  un niño")
+
+elif edad <= 17:
+   print("adolecente")
+
+elif edad <= 59:
+   print("adulto")
+
+else:
+   print("eres adulto mayor")
+   
  
 
 
