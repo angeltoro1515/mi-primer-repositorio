@@ -91,6 +91,16 @@ imc= peso / (estatura**2)
 print("tu indece de masa corporal imc es:", imc)
 
 
+
+monto_bs= float(input("ingresa el montoen moneda local"))
+tasa_dolar= float(input("ingresa una tasa de cambio del dolar"))
+
+dolares= monto_bs / tasa_dolar
+print("el equivalente en dolares es:$", dolares)
+
+
+
+
  
 
 
