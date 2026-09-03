@@ -74,14 +74,21 @@ else:
 
 
 
-   precio = float(input("ingresa el precio del producto")) 
+   precio = float(input("ingresa el precio del producto:"))
 
-descuento_porcentaje= float(input("ingresa el porcentaje de un descuento"))
+descuento_porcentaje= float(input("ingresa el porcentaje de un descuento:"))
 
 descuento = precio * (descuento_porcentaje / 100)
 precio_final = precio - descuento
 print ("el precio final es:", precio_final)
 
+
+
+peso= float(input("ingresa un peso en kg"))
+estatura= float(input("ingresa una estatura en metros"))
+
+imc= peso / (estatura**2)
+print("tu indece de masa corporal imc es:", imc)
 
 
  
