@@ -19,3 +19,9 @@ print("el resultado de la multiplicacion es, resulrado")
 elif operador == "/":
 resultado = num1 /num2
 print("el resultado de la division es, resultado")
+pra indice con valor del indice 
+
+
+
+
+while se va ejecutar infinitamente 
